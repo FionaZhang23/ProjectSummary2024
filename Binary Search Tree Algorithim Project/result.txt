@@ -1,0 +1,15 @@
+insert 111
+insert 23
+insert 99
+insert 4
+Invalid Command
+insert 111
+4 23 99 111
+search failed
+removed 23
+removed 4
+remove failed
+Invalid Command
+99 111
+insert 123
+99 111 123

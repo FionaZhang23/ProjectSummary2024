@@ -1,0 +1,13 @@
+Data Size: 1000, Swaps: 258130
+Data Size: 2000, Swaps: 1008888
+Data Size: 3000, Swaps: 2248932
+Data Size: 4000, Swaps: 4034389
+Data Size: 5000, Swaps: 6265078
+Data Size: 6000, Swaps: 8956122
+Data Size: 7000, Swaps: 11925186
+Data Size: 8000, Swaps: 15490773
+Data Size: 9000, Swaps: 19384839
+Data Size: 10000, Swaps: 23734300
+Data Size: 11000, Swaps: 28866758
+Data Size: 12000, Swaps: 34837370
+Data Size: 13000, Swaps: 41639346

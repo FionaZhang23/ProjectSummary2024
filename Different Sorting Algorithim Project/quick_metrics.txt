@@ -1,0 +1,13 @@
+Data Size: 1000, Time: 1 ms
+Data Size: 2000, Time: 3 ms
+Data Size: 3000, Time: 2 ms
+Data Size: 4000, Time: 3 ms
+Data Size: 5000, Time: 2 ms
+Data Size: 6000, Time: 2 ms
+Data Size: 7000, Time: 3 ms
+Data Size: 8000, Time: 6 ms
+Data Size: 9000, Time: 3 ms
+Data Size: 10000, Time: 4 ms
+Data Size: 11000, Time: 5 ms
+Data Size: 12000, Time: 13 ms
+Data Size: 13000, Time: 14 ms

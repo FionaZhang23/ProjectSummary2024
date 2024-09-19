@@ -1,0 +1,13 @@
+Data Size: 1000, Swaps: 258130, Time: 15 ms
+Data Size: 2000, Swaps: 1008888, Time: 22 ms
+Data Size: 3000, Swaps: 2248932, Time: 32 ms
+Data Size: 4000, Swaps: 4034389, Time: 48 ms
+Data Size: 5000, Swaps: 6265078, Time: 77 ms
+Data Size: 6000, Swaps: 8956122, Time: 93 ms
+Data Size: 7000, Swaps: 11925186, Time: 121 ms
+Data Size: 8000, Swaps: 15490773, Time: 152 ms
+Data Size: 9000, Swaps: 19384839, Time: 191 ms
+Data Size: 10000, Swaps: 23734300, Time: 240 ms
+Data Size: 11000, Swaps: 28866758, Time: 272 ms
+Data Size: 12000, Swaps: 34837370, Time: 316 ms
+Data Size: 13000, Swaps: 41639346, Time: 365 ms

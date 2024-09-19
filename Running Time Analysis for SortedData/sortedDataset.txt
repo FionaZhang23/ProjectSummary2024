@@ -1,0 +1,171 @@
+TaylorSong{name = I Know Places - Voice Memo, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 0}
+TaylorSong{name = I Wish You Would - Voice Memo, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 0}
+TaylorSong{name = Blank Space - Voice Memo, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 0}
+TaylorSong{name = Back To December, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 43}
+TaylorSong{name = Never Grow Up, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 44}
+TaylorSong{name = Innocent, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 44}
+TaylorSong{name = Mine - POP Mix, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 45}
+TaylorSong{name = A Perfectly Good Heart, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 46}
+TaylorSong{name = The Outside, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 47}
+TaylorSong{name = Tied Together with a Smile, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 47}
+TaylorSong{name = Haunted, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 47}
+TaylorSong{name = Last Kiss, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 47}
+TaylorSong{name = Long Live, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 47}
+TaylorSong{name = Superman, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 47}
+TaylorSong{name = Stay Beautiful, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 48}
+TaylorSong{name = Invisible, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 48}
+TaylorSong{name = Teardrops on My Guitar - Pop Version, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 48}
+TaylorSong{name = Dear John, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 48}
+TaylorSong{name = Mean, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 48}
+TaylorSong{name = The Story Of Us, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 48}
+TaylorSong{name = Haunted - Acoustic Version, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 48}
+TaylorSong{name = Tim McGraw, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 49}
+TaylorSong{name = A Place in this World, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 49}
+TaylorSong{name = Speak Now, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 49}
+TaylorSong{name = Better Than Revenge, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 49}
+TaylorSong{name = Cold As You, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 50}
+TaylorSong{name = Mary's Song (Oh My My My), album = Taylor Swift, releaseDate = 2006-10-24, popularity = 50}
+TaylorSong{name = I'm Only Me When I'm With You, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 50}
+TaylorSong{name = Sparks Fly, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 50}
+TaylorSong{name = Back To December, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 50}
+TaylorSong{name = Enchanted, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 51}
+TaylorSong{name = If This Was A Movie, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 52}
+TaylorSong{name = Should've Said No, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 53}
+TaylorSong{name = Treacherous - Original Demo Recording, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 53}
+TaylorSong{name = Red - Original Demo Recording, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 53}
+TaylorSong{name = Picture To Burn, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 54}
+TaylorSong{name = Our Song, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 54}
+TaylorSong{name = Ours, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 55}
+TaylorSong{name = Girl At Home, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 55}
+TaylorSong{name = State Of Grace - Acoustic, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 55}
+TaylorSong{name = Starlight, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 58}
+TaylorSong{name = The Moment I Knew, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 58}
+TaylorSong{name = Welcome To New York, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 58}
+TaylorSong{name = All You Had To Do Was Stay, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 58}
+TaylorSong{name = I Know Places, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 58}
+TaylorSong{name = Teardrops On My Guitar - Radio Single Remix, album = Taylor Swift, releaseDate = 2006-10-24, popularity = 59}
+TaylorSong{name = Back To December - Acoustic, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 59}
+TaylorSong{name = The Story Of Us, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 59}
+TaylorSong{name = Sad Beautiful Tragic, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 59}
+TaylorSong{name = Bad Blood, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 59}
+TaylorSong{name = Stay Stay Stay, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 60}
+TaylorSong{name = The Lucky One, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 60}
+TaylorSong{name = Begin Again, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 60}
+TaylorSong{name = Come Back...Be Here, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 60}
+TaylorSong{name = I Wish You Would, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 60}
+TaylorSong{name = How You Get The Girl, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 60}
+TaylorSong{name = This Love, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 60}
+TaylorSong{name = epiphany, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 60}
+TaylorSong{name = peace, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 60}
+TaylorSong{name = hoax, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 60}
+TaylorSong{name = Superstar (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 60}
+TaylorSong{name = Treacherous, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 61}
+TaylorSong{name = I Almost Do, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 61}
+TaylorSong{name = The Last Time, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 61}
+TaylorSong{name = Holy Ground, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 61}
+TaylorSong{name = Wildest Dreams, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 61}
+TaylorSong{name = mad woman, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 61}
+TaylorSong{name = Change (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 61}
+TaylorSong{name = Come In With The Rain (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 61}
+TaylorSong{name = State Of Grace, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 62}
+TaylorSong{name = Everything Has Changed, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 62}
+TaylorSong{name = You Are In Love, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 62}
+TaylorSong{name = seven, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 62}
+TaylorSong{name = illicit affairs, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 62}
+TaylorSong{name = invisible string, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 62}
+TaylorSong{name = betty, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 62}
+TaylorSong{name = closure, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 62}
+TaylorSong{name = The Best Day (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 62}
+TaylorSong{name = Jump Then Fall (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 62}
+TaylorSong{name = Untouchable (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 62}
+TaylorSong{name = Today Was A Fairytale (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 62}
+TaylorSong{name = Clean, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 63}
+TaylorSong{name = the last great american dynasty, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 63}
+TaylorSong{name = mirrorball, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 63}
+TaylorSong{name = this is me trying, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 63}
+TaylorSong{name = marjorie, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 63}
+TaylorSong{name = Tell Me Why (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 63}
+TaylorSong{name = Forever & Always (Piano Version) (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 63}
+TaylorSong{name = You All Over Me (feat. Maren Morris) (Taylor’s Version) (From The Vault), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 63}
+TaylorSong{name = Mine, album = Speak Now (Deluxe Package), releaseDate = 2010-01-01, popularity = 64}
+TaylorSong{name = 22, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 64}
+TaylorSong{name = the 1, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 64}
+TaylorSong{name = exile (feat. Bon Iver), album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 64}
+TaylorSong{name = my tears ricochet, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 64}
+TaylorSong{name = happiness, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 64}
+TaylorSong{name = dorothea, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 64}
+TaylorSong{name = coney island (feat. The National), album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 64}
+TaylorSong{name = cowboy like me, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 64}
+TaylorSong{name = long story short, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 64}
+TaylorSong{name = evermore (feat. Bon Iver), album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 64}
+TaylorSong{name = Breathe (feat. Colbie Caillat) (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 64}
+TaylorSong{name = You’re Not Sorry (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 64}
+TaylorSong{name = The Other Side Of The Door (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 64}
+TaylorSong{name = Bye Bye Baby (Taylor’s Version) (From The Vault), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 64}
+TaylorSong{name = I Knew You Were Trouble., album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 65}
+TaylorSong{name = We Are Never Ever Getting Back Together, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 65}
+TaylorSong{name = Wonderland, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 65}
+TaylorSong{name = Soon You’ll Get Better (feat. The Chicks), album = Lover, releaseDate = 2019-08-23, popularity = 65}
+TaylorSong{name = It’s Nice To Have A Friend, album = Lover, releaseDate = 2019-08-23, popularity = 65}
+TaylorSong{name = cardigan, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 65}
+TaylorSong{name = august, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 65}
+TaylorSong{name = the lakes - bonus track, album = folklore (deluxe version), releaseDate = 2020-08-18, popularity = 65}
+TaylorSong{name = ivy, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 65}
+TaylorSong{name = We Were Happy (Taylor’s Version) (From The Vault), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 65}
+TaylorSong{name = Red, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 66}
+TaylorSong{name = New Romantics, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 66}
+TaylorSong{name = So It Goes..., album = reputation, releaseDate = 2017-11-10, popularity = 66}
+TaylorSong{name = gold rush, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 66}
+TaylorSong{name = ‘tis the damn season, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 66}
+TaylorSong{name = tolerate it, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 66}
+TaylorSong{name = Fifteen (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 66}
+TaylorSong{name = Hey Stephen (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 66}
+TaylorSong{name = White Horse (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 66}
+TaylorSong{name = Don’t You (Taylor’s Version) (From The Vault), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 66}
+TaylorSong{name = Out Of The Woods, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 67}
+TaylorSong{name = New Year’s Day, album = reputation, releaseDate = 2017-11-10, popularity = 67}
+TaylorSong{name = willow, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 67}
+TaylorSong{name = Forever & Always (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 67}
+TaylorSong{name = That’s When (feat. Keith Urban) (Taylor’s Version) (From The Vault), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 67}
+TaylorSong{name = Dancing With Our Hands Tied, album = reputation, releaseDate = 2017-11-10, popularity = 68}
+TaylorSong{name = This Is Why We Can't Have Nice Things, album = reputation, releaseDate = 2017-11-10, popularity = 68}
+TaylorSong{name = False God, album = Lover, releaseDate = 2019-08-23, popularity = 68}
+TaylorSong{name = Daylight, album = Lover, releaseDate = 2019-08-23, popularity = 68}
+TaylorSong{name = it’s time to go - bonus track, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 68}
+TaylorSong{name = King Of My Heart, album = reputation, releaseDate = 2017-11-10, popularity = 69}
+TaylorSong{name = The Archer, album = Lover, releaseDate = 2019-08-23, popularity = 69}
+TaylorSong{name = champagne problems, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 69}
+TaylorSong{name = Fearless (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 69}
+TaylorSong{name = I Think He Knows, album = Lover, releaseDate = 2019-08-23, popularity = 70}
+TaylorSong{name = Miss Americana & The Heartbreak Prince, album = Lover, releaseDate = 2019-08-23, popularity = 70}
+TaylorSong{name = Dress, album = reputation, releaseDate = 2017-11-10, popularity = 71}
+TaylorSong{name = Call It What You Want, album = reputation, releaseDate = 2017-11-10, popularity = 71}
+TaylorSong{name = Cornelia Street, album = Lover, releaseDate = 2019-08-23, popularity = 71}
+TaylorSong{name = Death By A Thousand Cuts, album = Lover, releaseDate = 2019-08-23, popularity = 71}
+TaylorSong{name = All Too Well, album = Red (Deluxe Edition), releaseDate = 2012-10-22, popularity = 72}
+TaylorSong{name = End Game, album = reputation, releaseDate = 2017-11-10, popularity = 72}
+TaylorSong{name = Gorgeous, album = reputation, releaseDate = 2017-11-10, popularity = 72}
+TaylorSong{name = I Forgot That You Existed, album = Lover, releaseDate = 2019-08-23, popularity = 72}
+TaylorSong{name = London Boy, album = Lover, releaseDate = 2019-08-23, popularity = 72}
+TaylorSong{name = right where you left me - bonus track, album = evermore (deluxe version), releaseDate = 2021-01-07, popularity = 72}
+TaylorSong{name = ...Ready For It?, album = reputation, releaseDate = 2017-11-10, popularity = 74}
+TaylorSong{name = I Did Something Bad, album = reputation, releaseDate = 2017-11-10, popularity = 74}
+TaylorSong{name = Afterglow, album = Lover, releaseDate = 2019-08-23, popularity = 74}
+TaylorSong{name = Love Story (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 74}
+TaylorSong{name = The Way I Loved You (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 74}
+TaylorSong{name = Mr. Perfectly Fine (Taylor’s Version) (From The Vault), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 74}
+TaylorSong{name = Style, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 75}
+TaylorSong{name = Don’t Blame Me, album = reputation, releaseDate = 2017-11-10, popularity = 75}
+TaylorSong{name = The Man, album = Lover, releaseDate = 2019-08-23, popularity = 75}
+TaylorSong{name = Getaway Car, album = reputation, releaseDate = 2017-11-10, popularity = 76}
+TaylorSong{name = Paper Rings, album = Lover, releaseDate = 2019-08-23, popularity = 76}
+TaylorSong{name = You Belong With Me (Taylor’s Version), album = Fearless (Taylor's Version), releaseDate = 2021-04-09, popularity = 76}
+TaylorSong{name = Look What You Made Me Do, album = reputation, releaseDate = 2017-11-10, popularity = 77}
+TaylorSong{name = Cruel Summer, album = Lover, releaseDate = 2019-08-23, popularity = 77}
+TaylorSong{name = ME! (feat. Brendon Urie of Panic! At The Disco), album = Lover, releaseDate = 2019-08-23, popularity = 77}
+TaylorSong{name = Delicate, album = reputation, releaseDate = 2017-11-10, popularity = 78}
+TaylorSong{name = You Need To Calm Down, album = Lover, releaseDate = 2019-08-23, popularity = 78}
+TaylorSong{name = Shake It Off, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 80}
+TaylorSong{name = Lover, album = Lover, releaseDate = 2019-08-23, popularity = 80}
+TaylorSong{name = Blank Space, album = 1989 (Deluxe), releaseDate = 2014-01-01, popularity = 82}
+TaylorSong{name = "no body, album =  no crime (feat. HAIM)", releaseDate = Taylor Swift, popularity = 215626}
