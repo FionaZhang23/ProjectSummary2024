@@ -1,0 +1,220 @@
+---
+title: "Project"
+author: "Fiona Zhang"
+date: "2024-02-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+input=read.table("Data2share.txt",sep="\t",header=T)
+
+input <- input |>
+  mutate(ever_symp = across(starts_with("symptom")) %>% rowSums > 0,
+         ever_pos = across(starts_with("compar")) %>% rowSums(., na.rm = TRUE) > 0)
+```
+
+```{r}
+long_df <- input |>
+  select(-eligible) |>
+  pivot_longer(
+    cols = -newid, 
+    names_to = c(".value", "day"), 
+    names_pattern = "(.*)\\.(.*)"
+  ) |>
+  mutate(day = as.numeric(day))
+```
+
+```{r}
+set.seed(1)
+samp <- long_df |>
+  distinct(newid) |>
+  slice_sample(n = 1000)
+long_df |>
+  inner_join(samp, by = "newid") |>
+  inner_join(input |> select(newid, ever_symp, ever_pos), by = "newid") |>
+ggplot(aes(x = day, y = antigen_result, group = newid, color = ever_symp)) +
+  geom_line(alpha = 0.5) +
+  facet_wrap(~ever_symp)
+
+long_df |>
+  inner_join(input |> select(newid, ever_symp, ever_pos), by = "newid") |>
+  filter(ever_pos) |>
+  group_by(day, ever_symp) |>
+  summarise(m = mean(antigen_result, na.rm = TRUE)) |>
+ggplot(aes(x = day, y = m, color = ever_symp)) +
+  geom_line() +
+  facet_wrap(~ever_symp)
+```
+
+```{r}
+long_df |>
+  group_by(newid)
+```
+
+```{r}
+set.seed(1)
+samp <- long_df |>
+  distinct(newid) |>
+  slice_sample(n = 1000)
+
+true_data <- long_df %>%
+ # inner_join(samp, by = "newid") |>
+  inner_join(input |> select(newid, ever_symp, ever_pos), by = "newid") %>%
+  filter(ever_symp == TRUE, ever_pos == TRUE)
+
+model_true <- lm(antigen_result ~ splines::ns(day, 4), data = true_data) 
+
+true_data |>
+  drop_na(antigen_result, day) |>
+  mutate(yhat = fitted(model_true)) |>
+  distinct(day, yhat) |>
+  ggplot(aes(x = day, y = yhat)) + 
+  geom_point() + 
+  geom_line() + 
+  labs(
+    title = "Predicted Antigen result from day of test among symptomatic participants",
+    subtitle = "Linear Model with Spline")
+
+# true_data |>
+#   filter(ever_pos) |>
+#   group_by(day) |>
+#   summarise(m = mean(antigen_result, na.rm = TRUE)) |>
+# 
+#   ggplot(aes(x = day, y = m)) +
+#   geom_line() 
+# ggplot(true_data, aes(x = day, y = antigen_result)) + 
+#   geom_point() +
+#   stat_smooth(method = "lm") + 
+#   labs(title = "Predicted Antigen result from day of test among symptomatic participants",
+#        subtitle = "Linear Model (no spline)")
+
+
+false_data <- long_df %>%
+ # inner_join(samp, by = "newid") |>
+  inner_join(input |> select(newid, ever_symp, ever_pos), by = "newid") %>%
+  filter(ever_symp == FALSE, ever_pos == TRUE)
+
+model_false <- lm(antigen_result ~ splines::ns(day, 4), data = false_data) 
+
+sym_data <- true_data |>
+  drop_na(antigen_result, day) |>
+  mutate(yhat = fitted(model_true))
+
+p0 <- false_data |>
+  drop_na(antigen_result, day) |>
+  mutate(yhat = fitted(model_false)) |>
+  ggplot(aes(x = day, y = yhat)) + 
+  geom_point() + 
+  geom_line() + 
+  geom_point(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue") + 
+  geom_line(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue")  +
+  labs(title = "without a lag")
+
+p1 <- false_data |>
+  drop_na(antigen_result, day) |>
+  mutate(yhat = fitted(model_false),
+         day = day + 1) |>
+  ggplot(aes(x = day, y = yhat)) + 
+  geom_point() + 
+  geom_line() + 
+  geom_point(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue") + 
+  geom_line(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue")  +
+  labs(title = "1 day lag")
+
+p2 <- false_data |>
+  drop_na(antigen_result, day) |>
+  mutate(yhat = fitted(model_false),
+         day = day + 2) |>
+  ggplot(aes(x = day, y = yhat)) + 
+  geom_point() + 
+  geom_line() + 
+  geom_point(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue") + 
+  geom_line(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue")  +
+  labs(title = "2 day lag")
+
+p3 <- false_data |>
+  drop_na(antigen_result, day) |>
+  mutate(yhat = fitted(model_false),
+         day = day + 3) |>
+  ggplot(aes(x = day, y = yhat)) + 
+  geom_point() + 
+  geom_line() + 
+  geom_point(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue") + 
+  geom_line(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue")  +
+  labs(title = "3 day lag")
+
+p4 <- false_data |>
+  drop_na(antigen_result, day) |>
+  mutate(yhat = fitted(model_false),
+         day = day + 4) |>
+  ggplot(aes(x = day, y = yhat)) + 
+  geom_point() + 
+  geom_line() + 
+  geom_point(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue") + 
+  geom_line(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue")  +
+  labs(title = "4 day lag")
+
+
+p5 <- false_data |>
+  drop_na(antigen_result, day) |>
+  mutate(yhat = fitted(model_false),
+         day = day + 5) |>
+  ggplot(aes(x = day, y = yhat)) + 
+  geom_point() + 
+  geom_line() + 
+  geom_point(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue") + 
+  geom_line(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue")  +
+  labs(title = "5 day lag")
+
+p6 <- false_data |>
+  drop_na(antigen_result, day) |>
+  mutate(yhat = fitted(model_false),
+         day = day + 6) |>
+  ggplot(aes(x = day, y = yhat)) + 
+  geom_point() + 
+  geom_line() + 
+  geom_point(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue") + 
+  geom_line(data = sym_data, aes(x = day, y = yhat), color = "cornflower blue")  +
+  labs(title = "6 day lag")
+```
+We can use a change point detection model to try to determine what we should be adding to the asymptomatic days to get them to match the shape of the symptomatic days. 
+
+* Treat the symptomatic curve as the "truth" and then shift the asymptomatic curve 0.5 days at a time to see if you can find the optimal shift ("optimal" can be defined as the shift that minimizes the MSE between the symptomatic curve and the shifted asymptomatic curve)
+
+```{r}
+library(patchwork)
+p0 + p1 + p2 + p3 + p4 + p5 + p6
+
+```
+
+
+```{r}
+true_data <- true_data|>
+  mutate(antigen_1daylag = lag(antigen_result)) |>
+  mutate(antigen_2daylag = lag(antigenyes),
+         )
+model <- lm(day ~ antigen_result + antigen_1daylag + antigen_2daylag, data = true_data)
+
+true_data |>
+  filter(!is.na(antigen_1daylag), !is.na(antigen_2daylag), !is.na(antigen_result), !is.na(day)) |>
+  ggplot(aes(x = day, antigen_result)) +
+  geom_point() + 
+  geom_line(aes(x = fitted(model)))
+
+true_data <- true_data|>
+  drop_na(antigenyes) |>
+  mutate(antigenyes_hat = fitted(model_yes))
+model_bye <- lm(antigenbye ~ splines::ns(day + antigenyes_hat, 4), data = true_data)
+true_data <- true_data|>
+  drop_na(antigenbye) |>
+  mutate(antigenbye_hat = fitted(model_bye))
+model_day <- lm(day ~ splines::ns(antigen_result + antigenyes_hat + antigenbye_hat, 4), data = true_data)
+true_data <- true_data |>
+  mutate(dayhat = fitted(model_day))
+ggplot(true_data, aes(x = dayhat, y = antigen_result + antigenyes_hat + antigenbye_hat)) + 
+  geom_point() +
+  geom_line()
+```
+
